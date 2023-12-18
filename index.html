@@ -1,0 +1,54 @@
+<!--Iniciando a biblioteca html5-->
+<!DOCTYPE html>
+
+<!--Configurando idioma da pagina-->
+<html lang="pt-br">
+
+<!--Cabeça da pagina-->
+<head>
+    
+    <!--Definindo conjunto de caracteres-->
+    <meta charset="UTF-8">
+
+    <!--Ajustando o tamanho da pagina com o tamanho da tela-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Conectando a pagina html com uma folha de estilo css-->
+    <link href="style.css" rel="stylesheet">
+
+    <!--Titulo da pagina-->
+    <title>Desafio 03</title>
+
+</head>
+
+<!--Corpo da pagina-->
+<body>
+
+    <!--Cabeçalho da pagina-->
+    <header>
+
+        <!--Titulo do cabeçalho-->
+        <h1>Conversor de moedas v0.2</h1>
+
+    </header>
+
+    <!--Tag de sessao-->
+    <section>
+
+        <!--Formulario que envia os dados que o usario inserir para o servidor-->
+        <form action="server.php" method="get">
+
+            <!--Criando o campo onde o usuario deve inserir o valor a ser convertido-->
+            <label for="reais">Valor em reais :</label>
+            <input type="number" name="reais">
+
+            <!--Botao que envia os dados para o servidor-->
+            <input type="submit" value="Converter">
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
